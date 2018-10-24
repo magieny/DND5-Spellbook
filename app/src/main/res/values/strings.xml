@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DND5-Spellbook</string>
+    <string name="nav_profiles">Profiles</string>
+    <string name="nav_spellbook">Spellbook</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_headertitle">Menu</string>
 </resources>

@@ -11,14 +11,25 @@
     <FrameLayout
         android:id="@+id/content_frame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/profiles_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+
+        style="@style/headerBar"
+        android:elevation="4dp"
+        />
+
+    </FrameLayout>
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -29,6 +40,5 @@
         app:menu="@menu/drawer_view"
         app:headerLayout="@layout/nav_header"
         />
-
 
 </android.support.v4.widget.DrawerLayout>

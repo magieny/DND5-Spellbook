@@ -11,20 +11,28 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.app.ListActivity;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import Logic.ProfileList;
 
 
-public class ProfileListView extends AppCompatActivity {
+public class ProfileListView extends AppCompatActivity{
 
     private DrawerLayout mDrawerLayout;
     private Menu menu;
+    private ListActivity listActivity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        ListView list;
         setTitle(R.string.header_profiles);
 
         setContentView(R.layout.activity_profile_list_view);
@@ -65,8 +73,42 @@ public class ProfileListView extends AppCompatActivity {
                 }
 
         );
+        final String[] itemname ={
+                "Magieny",
+                "Adalar",
+                "Koło",
+                "Ivan Wielki"
+        };
+        final String[] race ={
+                "Human",
+                "Adam",
+                "Błotnik",
+                "Koszykarz"
+        };
 
+        final String[] prof ={
+                "Cleric (Death) Lvl 2",
+                "Adolf (Rudolf) Lvl up!",
+                "Wycieraczka (Zderzak) Lvl złom",
+                "Bramkarz (NHL) Lvl 69"
+        };
 
+        Integer imgid = R.drawable.ic_action_edit;
+
+        CustomListAdapter adapter=new CustomListAdapter(this, itemname, imgid, race, prof);
+        list=(ListView)findViewById(R.id.profiles_list);
+        list.setAdapter(adapter);
+
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view,
+                                    int position, long id) {
+                // TODO Auto-generated method stub
+                String Slecteditem= itemname[+position];
+                Toast.makeText(getApplicationContext(), "Armor up! "+Slecteditem, Toast.LENGTH_SHORT).show();
+
+            }
+        });
     }
 
 

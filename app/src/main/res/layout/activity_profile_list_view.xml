@@ -13,10 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ListView
-            android:id="@+id/profiles_list"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"></ListView>
+
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -29,6 +26,15 @@
         android:elevation="4dp"
         />
 
+        <ListView
+            android:id="@+id/profiles_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:dividerHeight="1dp"
+            android:divider="#b5b5b5"
+            android:listSelector="@drawable/list_selector"
+            ></ListView>
     </FrameLayout>
 
     <android.support.design.widget.NavigationView

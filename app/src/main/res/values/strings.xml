@@ -1,7 +1,16 @@
 <resources>
-    <string name="app_name">DND5-Spellbook</string>
+    <string name="app_name">DnD5e-Spellbook</string>
     <string name="nav_profiles">Profiles</string>
-    <string name="nav_spellbook">Spellbook</string>
+    <string name="nav_spellbook">View Spells</string>
     <string name="nav_help">Help</string>
     <string name="nav_headertitle">Menu</string>
+    <string name="nav_download">Download Spells</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About</string>
+
+    <string name="header_profiles">Profiles</string>
+    <string name="header_spellbook">Spellbook</string>
+    <string name="header_help">Help</string>
+
+
 </resources>

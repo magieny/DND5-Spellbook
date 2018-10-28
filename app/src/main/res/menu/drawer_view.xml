@@ -8,7 +8,16 @@
         android:id="@+id/nav_spellbook"
         android:title="@string/nav_spellbook"/>
     <item
+        android:id="@+id/nav_download"
+        android:title="@string/nav_download"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:title="@string/nav_settings"/>
+    <item
         android:id="@+id/nav_help"
         android:title="@string/nav_help"/>
+    <item
+        android:id="@+id/nav_about"
+        android:title="@string/nav_about"/>
 </group>
 </menu>

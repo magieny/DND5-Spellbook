@@ -11,4 +11,24 @@
         app:showAsAction="ifRoom"
         >
     </item>
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="search"
+        app:showAsAction="ifRoom"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_action_filter"
+        android:title="manageFilters"
+        app:showAsAction="ifRoom"
+        >
+
+    </item>
+
+
 </menu>

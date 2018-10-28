@@ -1,13 +1,13 @@
 package com.example.pchmiel.dnd5_spellbook;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -16,18 +16,19 @@ import android.widget.Toast;
 
 import Logic.ProfileList;
 
-
-public class ProfileListView extends AppCompatActivity {
-
+public class SpellbookView extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
     private Menu menu;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setTitle(R.string.header_profiles);
+        setTitle(R.string.header_spellbook);
+        setContentView(R.layout.activity_spellbook_view);
 
-        setContentView(R.layout.activity_profile_list_view);
+
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -36,7 +37,7 @@ public class ProfileListView extends AppCompatActivity {
         actionbar.setHomeAsUpIndicator(R.drawable.ic_menu);
         mDrawerLayout = findViewById(R.id.drawer_layout);
 
-        ListView listView = (ListView)findViewById(R.id.profiles_list);
+        ListView listView = (ListView) findViewById(R.id.profiles_list);
 
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(
@@ -46,16 +47,16 @@ public class ProfileListView extends AppCompatActivity {
                         menuItem.setChecked(true);
                         mDrawerLayout.closeDrawers();
 
-                        switch (menuItem.getItemId()){
+                        switch (menuItem.getItemId()) {
                             case R.id.nav_profiles: {
-                                Toast.makeText(ProfileListView.this, "You're already in profile view", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SpellbookView.this, "Profiles", Toast.LENGTH_SHORT).show();
+                                Intent intent = new Intent(SpellbookView.this, ProfileListView.class);
+                                startActivity(intent);
                                 break;
                             }
                             case R.id.nav_spellbook: {
                                 //ProfileListView.this.finish();
-                                Intent intent = new Intent(ProfileListView.this, SpellbookView.class);
-                                startActivity(intent);
-                                Toast.makeText(ProfileListView.this, "Spellbook", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SpellbookView.this, "You're already in spellbook view", Toast.LENGTH_SHORT).show();
                                 break;
                             }
                         }
@@ -74,16 +75,13 @@ public class ProfileListView extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         this.menu = menu;
-        hideOption(R.id.action_filter);
-        hideOption(R.id.action_search);
+        hideOption(R.id.action_addNewProfile);
         return super.onCreateOptionsMenu(menu);
     }
 
     private void hideOption(int id) {
         menu.findItem(id).setVisible(false);
     }
-
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -94,12 +92,8 @@ public class ProfileListView extends AppCompatActivity {
                 return true;
         }
 
-        if(id == R.id.action_addNewProfile){
-            Toast.makeText(ProfileListView.this,"Added new profile", Toast.LENGTH_LONG).show();
-            return true;
-        }
 
         return super.onOptionsItemSelected(item);
     }
-
 }
+

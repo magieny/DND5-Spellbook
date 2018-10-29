@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+ <Classes>
+   <Class ss:Index="1">
+    <Cell><Data ss:Type="String">Class Name</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Class index</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Base Spellbook spells indexes</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="2">
+    <Cell><Data ss:Type="String">Bard</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">1</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">5,6,9,23,24,30,33,37,43,45,50,52,59,60,62,83,85,86,95,97,98,99,102,103,108,109,111,116,120,121,124,126,128,129,130,131,134,148,149,150,151,154,157,159,163,164,166,172,176,177,180,182,183,187,189,190,195,197,198,200,201,203,206,207,208,209,211,215,217,218,221,225,226,228,229,230,232,234,237,239,241,245,248,252,254,256,257,258,259,261,265,266,271,276,280,287,289,290,291,294,299,300,302,306,307,308,314,318,322,323,326,327,332,334,337,339,340,342,344,361,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="3">
+    <Cell><Data ss:Type="String">Cleric</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">2</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">2,8,11,18,19,24,26,28,30,32,34,37,43,50,55,56,65,72,74,75,76,79,80,81,85,89,90,94,95,96,101,102,104,106,113,116,121,131,134,135,139,142,147,150,153,154,155,159,164,165,167,168,171,173,175,176,179,183,184,193,194,198,201,203,207,208,212,218,219,220,223,225,251,252,253,260,267,268,269,270,271,276,278,279,280,282,284,285,287,291,296,299,305,307,311,312,315,322,329,334,338,339,350,352,359,361,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="4">
+    <Cell><Data ss:Type="String">Cleric(Death)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">3</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">10,35,46,53,127,273,275,343,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="5">
+    <Cell><Data ss:Type="String">Cleric(Knowledge)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">4</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">13,62,189,241,318,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="6">
+    <Cell><Data ss:Type="String">Cleric(Light)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">5</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">41,126,140,143,286,345,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="7">
+    <Cell><Data ss:Type="String">Cleric(Nature)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">6</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">5,27,107,112,161,254,255,264,297,306,310,330,336,356,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="8">
+    <Cell><Data ss:Type="String">Cleric(Tempest)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">7</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">42,93,146,169,188,294,303,332,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="9">
+    <Cell><Data ss:Type="String">Cleric(Trickery)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">8</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">38,45,98,99,109,231,234,246,256,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="10">
+    <Cell><Data ss:Type="String">Cleric(War)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">9</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">84,105,182,216,316,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="11">
+    <Cell><Data ss:Type="String">Druid</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">10</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">5,6,7,10,12,23,27,29,35,42,45,57,62,63,66,67,68,70,72,75,76,80,85,88,89,95,96,102,107,112,113,116,119,126,130,131,134,135,139,141,143,146,149,150,154,156,160,161,164,167,169,172,175,176,177,179,183,188,194,196,201,206,207,208,209,218,223,225,230,235,240,246,252,253,254,255,256,264,267,269,270,276,277,279,281,287,293,297,303,306,308,310,315,316,317,319,320,330,332,335,336,338,341,345,348,349,351,352,355,356,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="12">
+    <Cell><Data ss:Type="String">Druid(Arctic)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">11</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">61,304,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="13">
+    <Cell><Data ss:Type="String">Druid(Coast)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">12</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">231,233,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="14">
+    <Cell><Data ss:Type="String">Druid(Desert)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">13</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">39,79,299,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="15">
+    <Cell><Data ss:Type="String">Druid(Forest)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">14</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">104,309,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="16">
+    <Cell><Data ss:Type="String">Druid(Grassland)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">15</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">104,111,174,195,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="17">
+    <Cell><Data ss:Type="String">Druid(Mountain)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">16</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">205,247,309,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="18">
+    <Cell><Data ss:Type="String">Druid(Swamp)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">17</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">87,224,314,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="19">
+    <Cell><Data ss:Type="String">Druid(Underdark)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">18</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">53,152,163,309,314,353,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="20">
+    <Cell><Data ss:Type="String">Paladin</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">19</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">2,20,21,22,25,26,34,36,40,49,55,58,79,84,85,89,90,93,94,95,96,101,102,105,115,133,154,180,201,207,208,212,216,268,269,270,271,278,282,288,296,313,331,360,361,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="21">
+    <Cell><Data ss:Type="String">Paladin(Ancients)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">20</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">57,118,188,233,235,254,267,306,316,336,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="22">
+    <Cell><Data ss:Type="String">Paladin(Devotion)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">21</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">28,56,142,150,165,285,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="23">
+    <Cell><Data ss:Type="String">Paladin(Oathbreaker)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">22</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">8,30,35,62,72,83,87,109,178,193,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="24">
+    <Cell><Data ss:Type="String">Paladin(Vengeance)</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">23</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">24,98,174,182,183,186,233,267,287,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="25">
+    <Cell><Data ss:Type="String">Ranger</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">24</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">3,5,6,27,29,57,63,64,69,70,77,85,88,89,95,96,118,135,146,150,160,161,170,186,196,201,204,206,207,208,209,241,246,254,267,269,299,306,308,310,316,321,336,351,352,356,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="26">
+    <Cell><Data ss:Type="String">Sorceror</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">25</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">1,4,9,14,26,33,35,37,38,39,41,44,45,46,47,48,50,52,53,54,59,61,62,78,82,83,86,87,88,89,91,95,97,98,99,100,102,107,108,109,113,116,117,121,123,124,127,128,129,136,137,140,145,146,151,152,153,158,163,169,174,182,183,187,188,192,194,195,196,197,202,204,205,210,211,214,217,221,225,226,227,229,231,233,240,248,253,255,256,258,259,261,262,267,274,275,281,286,289,290,294,295,298,300,302,303,304,309,314,316,318,319,320,324,326,327,332,333,334,339,340,345,348,351,352,353,357,358,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="27">
+    <Cell><Data ss:Type="String">Warlock</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">26</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">14,16,17,18,26,33,35,45,46,48,52,59,67,71,78,81,83,87,92,98,102,108,111,114,120,121,123,124,128,130,136,144,145,148,149,151,152,157,172,178,181,182,183,185,187,190,191,195,211,212,217,221,229,231,233,253,255,258,259,261,268,273,278,287,294,309,318,334,337,339,340,342,343,358,</Data>
+    </Cell>
+   </Class>
+   <Class ss:Index="28">
+    <Cell><Data ss:Type="String">Wizard</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">27</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">1,3,4,8,9,11,12,13,14,15,18,26,30,31,33,35,37,38,39,41,44,45,46,47,48,50,51,52,53,54,59,61,62,66,68,71,73,74,75,76,78,81,82,83,86,87,88,91,92,95,97,98,99,100,102,108,109,110,111,117,121,122,123,124,125,127,128,129,130,131,132,136,137,138,140,143,144,145,146,148,149,151,152,153,154,155,158,159,162,163,166,169,172,174,182,183,187,188,189,190,191,192,195,196,197,198,199,200,202,203,205,207,208,209,210,211,212,213,214,215,216,217,221,222,224,225,226,227,228,229,230,231,232,233,234,236,237,238,239,240,241,242,243,244,245,247,248,249,250,252,253,255,256,258,259,261,262,263,265,266,267,268,272,273,274,275,278,281,283,286,287,289,290,291,292,293,294,295,298,300,301,302,303,304,309,314,315,316,318,319,320,322,323,324,325,326,327,328,332,333,334,337,339,340,342,343,345,346,347,348,351,353,354,357,358,</Data>
+    </Cell>
+   </Class>
+ </Classes>

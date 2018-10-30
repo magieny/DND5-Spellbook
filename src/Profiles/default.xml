@@ -3,6 +3,7 @@
   <Name>default</Name>
   <RaceFile>Race.xml</RaceFile>
   <RaceIndex>1</RaceIndex>
+  <SubRaceIndex>1</SubRaceIndex>
   <Classes>
 	<Class ss:Index="1">
 	  <ClassFile>Class.xml</ClassFile>

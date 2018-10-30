@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+ <Profile>
+  <Name>default</Name>
+  <RaceFile>Race.xml</RaceFile>
+  <RaceIndex>1</RaceIndex>
+  <Classes>
+	<Class ss:Index="1">
+	  <ClassFile>Class.xml</ClassFile>
+	  <ClassIndex>1</ClassIndex>
+	  <SubClassIndex>1</SubClassIndex>
+	  <Level>2</Level>
+	  <AbilityModifier>3</AbilityModifier>
+	  <SSDC_ItemBonus>0</SSDC_ItemBonus>
+	  <SA_ItemBonus>0</SA_ItemBonus>
+	  <Color>1</Color>
+	</Class>
+	<Class ss:Index="2">
+	  <ClassFile>Class.xml</ClassFile>
+	  <ClassIndex>2</ClassIndex>
+	  <SubClassIndex>1</SubClassIndex>
+	  <Level>3</Level>
+	  <AbilityModifier>3</AbilityModifier>
+	  <SSDC_ItemBonus>0</SSDC_ItemBonus>
+	  <SA_ItemBonus>0</SA_ItemBonus>
+	  <Color>2</Color>
+	</Class>
+  </Classes>
+ </Profile>

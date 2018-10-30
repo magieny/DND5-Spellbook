@@ -3,105 +3,194 @@
    <Race ss:Index="1">
     <Name>Dwarf</Name>
 	<Index>1</Index>
-	<BaseSpellBookIndexes></BaseSpellBookIndexes>
+	<Spellbooks>
+	  <Spellbook>
+		<SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		<SpellsIndexes></SpellsIndexes>
+	  </Spellbook>
+	</Spellbooks>
 	<SubRaces>
 	  <SubRace ss:Index="1">
 	    <Name>Hill</Name>
 	    <Index>1</Index>
-	    <BaseSpellBookIndexes></BaseSpellBookIndexes>
+	    <Spellbooks>
+	      <Spellbook>
+		    <SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		    <SpellsIndexes></SpellsIndexes>
+	      </Spellbook>
+	    </Spellbooks>
 	  </SubRace>
 	  <SubRace ss:Index="2">
 	    <Name>Moutain</Name>
 	    <Index>2</Index>
-	    <BaseSpellBookIndexes></BaseSpellBookIndexes>
+	    <Spellbooks>
+	      <Spellbook>
+		    <SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		    <SpellsIndexes></SpellsIndexes>
+	      </Spellbook>
+	    </Spellbooks>
 	  </SubRace>
 	</SubRaces>
    </Race>
    <Race ss:Index="2">
     <Name>Elf</Name>
 	<Index>2</Index>
-	<BaseSpellBookIndexes></BaseSpellBookIndexes>
+	<Spellbooks>
+	  <Spellbook>
+		<SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		<SpellsIndexes></SpellsIndexes>
+	  </Spellbook>
+	</Spellbooks>
 	<SubRaces>
 	  <SubRace ss:Index="1">
 	    <Name>High</Name>
 	    <Index>1</Index>
-	    <BaseSpellBookIndexes></BaseSpellBookIndexes>
+	    <Spellbooks>
+	      <Spellbook>
+		    <SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		    <SpellsIndexes></SpellsIndexes>
+	      </Spellbook>
+	    </Spellbooks>
 	  </SubRace>
 	  <SubRace ss:Index="2">
 	    <Name>Wood</Name>
 	    <Index>2</Index>
-	    <BaseSpellBookIndexes></BaseSpellBookIndexes>
+	    <Spellbooks>
+	      <Spellbook>
+		    <SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		    <SpellsIndexes></SpellsIndexes>
+	      </Spellbook>
+	    </Spellbooks>
 	  </SubRace>
 	  <SubRace ss:Index="3">
 	    <Name>Dark(Drow)</Name>
 	    <Index>3</Index>
-	    <BaseSpellBookIndexes></BaseSpellBookIndexes>
+	    <Spellbooks>
+	      <Spellbook>
+		    <SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		    <SpellsIndexes></SpellsIndexes>
+	      </Spellbook>
+	    </Spellbooks>
 	  </SubRace>
 	</SubRaces>
    </Race>
    <Race ss:Index="3">
     <Name>Halfling</Name>
 	<Index>3</Index>
-	<BaseSpellBookIndexes></BaseSpellBookIndexes>
+	<Spellbooks>
+	  <Spellbook>
+		<SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		<SpellsIndexes></SpellsIndexes>
+	  </Spellbook>
+	</Spellbooks>
 	<SubRaces>
 	  <SubRace ss:Index="1">
 	    <Name>Lightfoot</Name>
 	    <Index>1</Index>
-	    <BaseSpellBookIndexes></BaseSpellBookIndexes>
+	    <Spellbooks>
+	      <Spellbook>
+		    <SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		    <SpellsIndexes></SpellsIndexes>
+	      </Spellbook>
+	    </Spellbooks>
 	  </SubRace>
 	  <SubRace ss:Index="2">
 	    <Name>Scout</Name>
 	    <Index>2</Index>
-	    <BaseSpellBookIndexes></BaseSpellBookIndexes>
+	    <Spellbooks>
+	       <Spellbook>
+	    	<SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		    <SpellsIndexes></SpellsIndexes>
+	      </Spellbook>
+	    </Spellbooks>
 	  </SubRace>
 	</SubRaces>
    </Race>
    <Race ss:Index="4">
     <Name>Human</Name>
 	<Index>4</Index>
-	<BaseSpellBookIndexes></BaseSpellBookIndexes>
+	<Spellbooks>
+	  <Spellbook>
+		<SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		<SpellsIndexes></SpellsIndexes>
+	  </Spellbook>
+	</Spellbooks>
 	<SubRaces></SubRaces>
    </Race>
    <Race ss:Index="5">
     <Name>Dragonborn</Name>
 	<Index>5</Index>
-	<BaseSpellBookIndexes></BaseSpellBookIndexes>
+	<Spellbooks>
+	  <Spellbook>
+		<SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		<SpellsIndexes></SpellsIndexes>
+	  </Spellbook>
+	</Spellbooks>
 	<SubRaces></SubRaces>
    </Race>
    <Race ss:Index="6">
     <Name>Gnome</Name>
 	<Index>6</Index>
-	<BaseSpellBookIndexes></BaseSpellBookIndexes>
+	<Spellbooks>
+	  <Spellbook>
+		<SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		<SpellsIndexes></SpellsIndexes>
+	  </Spellbook>
+	</Spellbooks>
 	<SubRaces>
 	  <SubRace ss:Index="1">
 	    <Name>Forest</Name>
 	    <Index>1</Index>
-	    <BaseSpellBookIndexes></BaseSpellBookIndexes>
+	    <Spellbooks>
+	      <Spellbook>
+		    <SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		    <SpellsIndexes></SpellsIndexes>
+	      </Spellbook>
+	    </Spellbooks>
 	  </SubRace>
 	  <SubRace ss:Index="2">
 	    <Name>Rock</Name>
 	    <Index>2</Index>
-	    <BaseSpellBookIndexes></BaseSpellBookIndexes>
+	    <Spellbooks>
+	      <Spellbook>
+		    <SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		    <SpellsIndexes></SpellsIndexes>
+	      </Spellbook>
+	    </Spellbooks>
 	  </SubRace>
 	</SubRaces>
    </Race>
    <Race ss:Index="7">
     <Name>Half-Elf</Name>
 	<Index>7</Index>
-	<BaseSpellBookIndexes></BaseSpellBookIndexes>
+	<Spellbooks>
+	  <Spellbook>
+		<SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		<SpellsIndexes></SpellsIndexes>
+	  </Spellbook>
+	</Spellbooks>
 	<SubRaces></SubRaces>
    </Race>
    <Race ss:Index="8">
     <Name>Half-Orc</Name>
 	<Index>8</Index>
-	<BaseSpellBookIndexes></BaseSpellBookIndexes>
+	<Spellbooks>
+	  <Spellbook>
+		<SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		<SpellsIndexes></SpellsIndexes>
+	  </Spellbook>
+	</Spellbooks>
 	<SubRaces></SubRaces>
    </Race>
    <Race ss:Index="9">
     <Name>Tiefling</Name>
 	<Index>9</Index>
-	<BaseSpellBookIndexes></BaseSpellBookIndexes>
+	<Spellbooks>
+	  <Spellbook>
+		<SpellbookFile>spellbook base EN.xml</SpellbookFile>
+		<SpellsIndexes></SpellsIndexes>
+	  </Spellbook>
+	</Spellbooks>
 	<SubRaces></SubRaces>
-   </Race>
-   
- </Classes>
+   </Race> 
+ </Races>

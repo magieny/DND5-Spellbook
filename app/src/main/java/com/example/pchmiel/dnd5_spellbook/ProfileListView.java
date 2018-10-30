@@ -21,18 +21,33 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Observable;
+
 import Logic.ProfileList;
 
 
 public class ProfileListView extends AppCompatActivity{
-
+    public ArrayList<ProfileList> profileLists = new ArrayList<>();
     private DrawerLayout mDrawerLayout;
     private Menu menu;
+    ListView list;
+
+
+    String profileName = "Vino";
+    Integer imgid = R.drawable.ic_action_edit;
+    String race = "Human";
+    String prof = "Cleric";
+    String archetype = "War";
+    String lvl = "3";
+
+
     private ListActivity listActivity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ListView list;
+
         setTitle(R.string.header_profiles);
 
         setContentView(R.layout.activity_profile_list_view);
@@ -73,12 +88,12 @@ public class ProfileListView extends AppCompatActivity{
                 }
 
         );
-        final String[] itemname ={
+        /*final String[] profileName ={
                 "Magieny",
                 "Adalar",
                 "Koło",
                 "Ivan Wielki"
-        };
+        };*/
         final String[] race ={
                 "Human",
                 "Adam",
@@ -87,30 +102,52 @@ public class ProfileListView extends AppCompatActivity{
         };
 
         final String[] prof ={
-                "Cleric (Death) Lvl 2",
-                "Adolf (Rudolf) Lvl up!",
-                "Wycieraczka (Zderzak) Lvl złom",
-                "Bramkarz (NHL) Lvl 69"
+                "Cleric",
+                "Paladin",
+                "Druid",
+                "Cleric"
         };
 
+        final String[] archetype ={
+                "Death",
+                "Protector",
+                "Forest",
+                "War"
+        };
+
+        final String[] lvl ={
+                "2",
+                "12",
+                "22",
+                "3"
+        };
+
+
+        profileLists.add(new ProfileList("Vino","Human", "Cleric", "War", "3"));
         Integer imgid = R.drawable.ic_action_edit;
 
-        CustomListAdapter adapter=new CustomListAdapter(this, itemname, imgid, race, prof);
-        list=(ListView)findViewById(R.id.profiles_list);
-        list.setAdapter(adapter);
 
+//        CustomListAdapter adapter=new CustomListAdapter(this, profileName, imgid, race, prof, archetype, lvl);
+//        list=(ListView)findViewById(R.id.profiles_list);
+//        list.setAdapter(adapter);
+
+        //CustomListAdapter adapter=new CustomListAdapter(this, profileName, imgid, race, prof, archetype, lvl);
+       /* ArrayAdapter<ProfileList> adapter;
+        adapter = new ArrayAdapter<ProfileList>(this, R.layout.list_row, profileLists);
+        list=(ListView)findViewById(R.id.profiles_list);
+        list.setAdapter(adapter);*/
+        list=(ListView)findViewById(R.id.profiles_list);
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 // TODO Auto-generated method stub
-                String Slecteditem= itemname[+position];
+                String Slecteditem = profileName;
                 Toast.makeText(getApplicationContext(), "Armor up! "+Slecteditem, Toast.LENGTH_SHORT).show();
 
             }
         });
-    }
-
+   }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -138,6 +175,11 @@ public class ProfileListView extends AppCompatActivity{
 
         if(id == R.id.action_addNewProfile){
             Toast.makeText(ProfileListView.this,"Added new profile", Toast.LENGTH_LONG).show();
+
+            CustomListAdapter adapter=new CustomListAdapter(this, profileName, imgid, race, prof, archetype, lvl);
+            list=(ListView)findViewById(R.id.profiles_list);
+            adapter.notifyDataSetChanged();
+            list.setAdapter(adapter);
             return true;
         }
 

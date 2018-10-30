@@ -23,12 +23,31 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:text="Human" />
-        <TextView
-            android:id="@+id/profile_class"
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Cleric (Death) Lvl 2"
-            android:layout_alignParentLeft="true"/>
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/profile_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cleric"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/profile_archetype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Death)"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/profile_lvl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lvl 2"
+                android:layout_alignParentLeft="true"/>
+        </LinearLayout>
+
     </LinearLayout>
 
     <ImageView

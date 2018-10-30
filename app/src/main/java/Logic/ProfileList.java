@@ -2,12 +2,16 @@ package Logic;
 
 public class ProfileList {
 
-    public ProfileList(String _PROFILETITLE, String _RACE, String _CLASS){
-        _PROFILETITLE = PROFILETITLE;
+    public ProfileList(String _PROFILENAME, String _RACE,String _PROF, String _ARCHETYPE,String _LVL){
+        _PROFILENAME = PROFILENAME;
         _RACE = RACE;
-        _CLASS = CLASS;
+        _PROF = PROF;
+        _ARCHETYPE = ARCHETYPE;
+        _LVL = LVL;
     }
-    String PROFILETITLE;
+    String PROFILENAME;
     String RACE;
-    String CLASS;
+    String PROF;
+    String ARCHETYPE;
+    String LVL;
 }

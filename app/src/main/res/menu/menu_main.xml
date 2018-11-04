@@ -30,5 +30,12 @@
 
     </item>
 
+    <item
+        android:id="@+id/action_applysettings"
+        android:icon="@drawable/ic_action_applysettings"
+        android:title="manageFilters"
+        app:showAsAction="ifRoom">
+
+    </item>
 
 </menu>

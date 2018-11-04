@@ -35,12 +35,6 @@ public class ProfileListView extends AppCompatActivity{
     ListView list;
 
 
-    String profileName = "Vino";
-    Integer imgid = R.drawable.ic_action_edit;
-    String race = "Human";
-    String prof = "Cleric";
-    String archetype = "War";
-    String lvl = "3";
 
 
     private ListActivity listActivity;
@@ -94,49 +88,46 @@ public class ProfileListView extends AppCompatActivity{
                 "Koło",
                 "Ivan Wielki"
         };*/
-        final String[] race ={
-                "Human",
-                "Adam",
-                "Błotnik",
-                "Koszykarz"
-        };
+//        final String[] race ={
+//                "Human",
+//                "Adam",
+//                "Błotnik",
+//                "Koszykarz"
+//        };
+//
+//        final String[] prof ={
+//                "Cleric",
+//                "Paladin",
+//                "Druid",
+//                "Cleric"
+//        };
+//
+//        final String[] archetype ={
+//                "Death",
+//                "Protector",
+//                "Forest",
+//                "War"
+//        };
+//
+//        final String[] lvl ={
+//                "2",
+//                "12",
+//                "22",
+//                "3"
+//        };
 
-        final String[] prof ={
-                "Cleric",
-                "Paladin",
-                "Druid",
-                "Cleric"
-        };
-
-        final String[] archetype ={
-                "Death",
-                "Protector",
-                "Forest",
-                "War"
-        };
-
-        final String[] lvl ={
-                "2",
-                "12",
-                "22",
-                "3"
-        };
-
-
-        profileLists.add(new ProfileList("Vino","Human", "Cleric", "War", "3"));
+        final String profileName = "Vino";
+        String race = "Human";
+        String prof = "Cleric";
+        String archetype = "War";
+        String lvl = "4";
+        //profileLists.add(new ProfileList("Vino","Human", "Cleric", "War", "3"));
         Integer imgid = R.drawable.ic_action_edit;
 
-
-//        CustomListAdapter adapter=new CustomListAdapter(this, profileName, imgid, race, prof, archetype, lvl);
-//        list=(ListView)findViewById(R.id.profiles_list);
-//        list.setAdapter(adapter);
-
-        //CustomListAdapter adapter=new CustomListAdapter(this, profileName, imgid, race, prof, archetype, lvl);
-       /* ArrayAdapter<ProfileList> adapter;
-        adapter = new ArrayAdapter<ProfileList>(this, R.layout.list_row, profileLists);
+        CustomListAdapter adapter=new CustomListAdapter(this, profileName, imgid, race, prof, archetype, lvl);
+        //adapter = new ArrayAdapter<ProfileList>(this, R.layout.list_row, profileLists);
         list=(ListView)findViewById(R.id.profiles_list);
-        list.setAdapter(adapter);*/
-        list=(ListView)findViewById(R.id.profiles_list);
+        list.setAdapter(adapter);
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
@@ -155,6 +146,7 @@ public class ProfileListView extends AppCompatActivity{
         this.menu = menu;
         hideOption(R.id.action_filter);
         hideOption(R.id.action_search);
+        hideOption(R.id.action_applysettings);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -176,10 +168,13 @@ public class ProfileListView extends AppCompatActivity{
         if(id == R.id.action_addNewProfile){
             Toast.makeText(ProfileListView.this,"Added new profile", Toast.LENGTH_LONG).show();
 
-            CustomListAdapter adapter=new CustomListAdapter(this, profileName, imgid, race, prof, archetype, lvl);
-            list=(ListView)findViewById(R.id.profiles_list);
-            adapter.notifyDataSetChanged();
-            list.setAdapter(adapter);
+            Intent intent = new Intent(ProfileListView.this, AddProfileView.class);
+            startActivity(intent);
+
+//            CustomListAdapter adapter=new CustomListAdapter(this, profileName, imgid, race, prof, archetype, lvl);
+//            list=(ListView)findViewById(R.id.profiles_list);
+//            adapter.notifyDataSetChanged();
+//            list.setAdapter(adapter);
             return true;
         }
 

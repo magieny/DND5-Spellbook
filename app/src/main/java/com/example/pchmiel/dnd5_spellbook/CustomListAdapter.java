@@ -52,8 +52,8 @@ public class CustomListAdapter extends ArrayAdapter<String> {
         imageView.setImageResource(imgid);
         extratxt.setText(race);
         profession.setText(prof);
-        archetypeC.setText(archetype);
-        profileLvl.setText(profLvl);
+        archetypeC.setText("("+archetype+")");
+        profileLvl.setText("Lvl " + profLvl);
         return rowView;
 
     }

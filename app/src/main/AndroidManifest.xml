@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".spellbook" />
-        <activity android:name=".SpellbookView"></activity>
+        <activity android:name=".SpellbookView" />
+        <activity android:name=".AddProfileView"></activity>
     </application>
 
 </manifest>

@@ -11,6 +11,7 @@
     <string name="header_profiles">Profiles</string>
     <string name="header_spellbook">Spellbook</string>
     <string name="header_help">Help</string>
+    <string name="header_newProfile">New Profile</string>
 
 
 </resources>

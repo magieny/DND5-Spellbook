@@ -34,10 +34,10 @@ public class AddProfileView extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         ActionBar actionbar = getSupportActionBar();
+        actionbar.setDisplayShowHomeEnabled(true);
         actionbar.setDisplayHomeAsUpEnabled(true);
         actionbar.setHomeAsUpIndicator(R.drawable.ic_menu);
         mDrawerLayout = findViewById(R.id.drawer_layout);
-
         ListView listView = (ListView) findViewById(R.id.profiles_list);
 
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -56,6 +56,7 @@ public class AddProfileView extends AppCompatActivity {
                                 break;
                             }
                             case R.id.nav_spellbook: {
+                                AddProfileView.this.finish();
                                 Intent intent = new Intent(AddProfileView.this, SpellbookView.class);
                                 startActivity(intent);
                                 break;

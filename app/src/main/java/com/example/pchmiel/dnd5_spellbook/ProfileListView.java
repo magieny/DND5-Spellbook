@@ -69,7 +69,7 @@ public class ProfileListView extends AppCompatActivity{
                                 break;
                             }
                             case R.id.nav_spellbook: {
-                                //ProfileListView.this.finish();
+                                ProfileListView.this.finish();
                                 Intent intent = new Intent(ProfileListView.this, SpellbookView.class);
                                 startActivity(intent);
                                 Toast.makeText(ProfileListView.this, "Spellbook", Toast.LENGTH_SHORT).show();
